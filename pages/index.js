@@ -90,7 +90,7 @@ export default function PaginaInicial() {
               e.preventDefault();
               console.log(e);
               
-            roteamento.push('/chat');
+            roteamento.push(`/chat?username=${username}`);
 
               //window.location.href = './chat'
             }
